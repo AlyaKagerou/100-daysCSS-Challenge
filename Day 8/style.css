@@ -15,7 +15,7 @@ body{
   height: 400px;
   display: grid;
   place-items: center;
-  background-color: black;
+  background-color: #000;
   border-radius: 10px;
 }
 .center{
@@ -25,9 +25,8 @@ body{
   position: relative;
   width: 90px;
   height: 90px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 50px;
-  filter: blur(8px);
 }
 .b2{
   position: absolute;
@@ -35,8 +34,8 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
-  background-color: white;
-  border-radius: 50px;
+  background-color: #fff;
+  border-radius: 50%;
   transform: rotate(8deg);
 }
 .b2::after{
@@ -45,12 +44,11 @@ body{
   display: block;
   width: 50px;
   height: 50px;
-  background-color: white;
-  border-radius: 50px;
-  transform-origin:34px 34px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 34px 34px;
   animation: rotate 2.9s ease-in-out infinite;
   animation-delay: 0.4s;
-  filter: blur(5px);
 }
 .b3{
   position: absolute;
@@ -58,18 +56,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(192deg);
 }
 .b3::after{
   position: absolute;
   content: "";
-  display:block;
-  width: 50px;
-  height: 50px;
-  transform-origin:31px 31px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 31px 31px;
   animation: rotate 3.1s ease-in-out infinite;
   animation-delay: 0.6s;
-  filter: blur(5px);
 }
 .b4{
   position: absolute;
@@ -77,18 +78,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(169deg);
 }
 .b4::after{
   position: absolute;
   content: "";
-  display:block;
+  display: block;
   width: 50px;
   height: 50px;
-  transform-origin:28px 28px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 28px 28px;
   animation: rotate 3.3s ease-in-out infinite;
   animation-delay: 0.8s;
-  filter: blur(5px);
 }
 .b5{
   position: absolute;
@@ -96,18 +100,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(93deg);
 }
 .b5::after{
   position: absolute;
   content: "";
-  display:block;
+  display: block;
   width: 50px;
   height: 50px;
-  transform-origin:25px 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 25px 25px;
   animation: rotate 3.5s ease-in-out infinite;
   animation-delay: 1s;
-  filter: blur(5px);
 }
 .b6{
   position: absolute;
@@ -115,18 +122,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(40deg);
 }
 .b6::after{
   position: absolute;
   content: "";
-  display:block;
+  display: block;
   width: 50px;
   height: 50px;
-  transform-origin:22px 22px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 22px 22px;
   animation: rotate 3.7s ease-in-out infinite;
   animation-delay: 1.2s;
-  filter: blur(5px);
 }
 .b7{
   position: absolute;
@@ -134,18 +144,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(140deg);
 }
 .b7::after{
   position: absolute;
   content: "";
-  display:block;
+  display: block;
   width: 50px;
   height: 50px;
-  transform-origin:19px 19px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 19px 19px;
   animation: rotate 3.9s ease-in-out infinite;
   animation-delay: 1.4s;
-  filter: blur(5px);
 }
 .b8{
   position: absolute;
@@ -153,18 +166,21 @@ body{
   left: 20px;
   width: 50px;
   height: 50px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(58deg);
 }
 .b8::after{
   position: absolute;
   content: "";
-  display:block;
+  display: block;
   width: 50px;
   height: 50px;
-  transform-origin:16px 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform-origin: 16px 16px;
   animation: rotate 4.1s ease-in-out infinite;
   animation-delay: 1.6s;
-  filter: blur(5px);
 }
 .c1{
   position: absolute;
@@ -172,20 +188,21 @@ body{
   left: 38px;
   width: 8px;
   height: 8px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(114deg);
 }
-.c1::after{
+.c1:after{
   position: absolute;
   content: "";
   display: block;
-  width: 8px;
   height: 8px;
-  background-color: white;
-  border-radius: 50%;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 58px 58px;
   animation: rotate 3.7s ease-in-out infinite;
   animation-delay: 0.2s;
-  filter: blur(3px);
 }
 .c2{
   position: absolute;
@@ -193,20 +210,21 @@ body{
   left: 38px;
   width: 9px;
   height: 9px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(280deg);
 }
-.c2::after{
+.c2:after{
   position: absolute;
   content: "";
   display: block;
-  width: 9px;
   height: 9px;
-  background-color: white;
-  border-radius: 50%;
+  width: 9px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 56px 56px;
   animation: rotate 3.9s ease-in-out infinite;
   animation-delay: 0.4s;
-  filter: blur(3px);
 }
 .c3{
   position: absolute;
@@ -214,41 +232,43 @@ body{
   left: 38px;
   width: 10px;
   height: 10px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(293deg);
 }
-.c3::after{
+.c3:after{
   position: absolute;
   content: "";
   display: block;
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 54px 54px;
   animation: rotate 4.1s ease-in-out infinite;
   animation-delay: 0.6s;
-  filter: blur(3px);
 }
-.c3{
+.c4{
   position: absolute;
   top: 38px;
   left: 38px;
   width: 11px;
   height: 11px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(263deg);
 }
-.c4::after{
+.c4:after{
   position: absolute;
   content: "";
   display: block;
-  width: 11px;
   height: 11px;
-  background-color: white;
-  border-radius: 50%;
+  width: 11px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 52px 52px;
   animation: rotate 4.3s ease-in-out infinite;
   animation-delay: 0.8s;
-  filter: blur(3px);
 }
 .c5{
   position: absolute;
@@ -256,20 +276,21 @@ body{
   left: 38px;
   width: 12px;
   height: 12px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(300deg);
 }
-.c5::after{
+.c5:after{
   position: absolute;
   content: "";
   display: block;
-  width: 12px;
   height: 12px;
-  background-color: white;
-  border-radius: 50%;
+  width: 12px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 50px 50px;
   animation: rotate 4.5s ease-in-out infinite;
   animation-delay: 1s;
-  filter: blur(3px);
 }
 .c6{
   position: absolute;
@@ -277,20 +298,21 @@ body{
   left: 38px;
   width: 13px;
   height: 13px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(138deg);
 }
-.c6::after{
+.c6:after{
   position: absolute;
   content: "";
   display: block;
-  width: 13px;
   height: 13px;
-  background-color: white;
-  border-radius: 50%;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 48px 48px;
   animation: rotate 4.1s ease-in-out infinite;
   animation-delay: 0.6s;
-  filter: blur(3px);
 }
 .c7{
   position: absolute;
@@ -298,20 +320,21 @@ body{
   left: 38px;
   width: 14px;
   height: 14px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(18deg);
 }
-.c7::after{
+.c7:after{
   position: absolute;
   content: "";
   display: block;
-  width: 14px;
   height: 14px;
-  background-color: white;
-  border-radius: 50%;
+  width: 14px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 46px 46px;
   animation: rotate 4.9s ease-in-out infinite;
-  animation-delay: 1.4s;
-  filter: blur(3px);
+  animation-delay: 1.4s;;
 }
 .c8{
   position: absolute;
@@ -319,20 +342,21 @@ body{
   left: 38px;
   width: 15px;
   height: 15px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(36deg);
 }
-.c8::after{
+.c8:after{
   position: absolute;
   content: "";
   display: block;
-  width: 15px;
   height: 15px;
-  background-color: white;
-  border-radius: 50%;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 44px 44px;
   animation: rotate 5.1s ease-in-out infinite;
-  animation-delay: 1.6s;
-  filter: blur(3px);
+  animation-delay:1.6s;
 }
 .c9{
   position: absolute;
@@ -340,20 +364,21 @@ body{
   left: 38px;
   width: 16px;
   height: 16px;
+  background-color: #fff;
+  border-radius: 50px;
   transform: rotate(17deg);
 }
-.c9::after{
+.c9:after:after{
   position: absolute;
   content: "";
   display: block;
-  width: 15px;
-  height: 15px;
-  background-color: white;
-  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 42px 42px;
   animation: rotate 5.3s ease-in-out infinite;
   animation-delay: 1.8s;
-  filter: blur(3px);
 }
 .c10{
   position: absolute;
@@ -361,20 +386,21 @@ body{
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(117deg);
+  background-color: #fff;
+  border-radius: 50px;
+  transform: rotate(36deg);
 }
-.c10::after{
+.c10:after{
   position: absolute;
   content: "";
   display: block;
-  width: 16px;
-  height: 16px;
-  background-color: white;
-  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-radius: 50px;
   transform-origin: 40px 40px;
   animation: rotate 5.5s ease-in-out infinite;
   animation-delay: 2s;
-  filter: blur(3px);
 }
 @keyframes rotate {
   from{
