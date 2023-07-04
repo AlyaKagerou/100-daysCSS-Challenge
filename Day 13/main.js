@@ -1,8 +1,8 @@
 function toggle() {
-  document.getElementById("detail-1").classList.toggle("active");
+  document.getElementById("detail").classList.toggle("active");
 }
 
-const infos = document.querySelector(".infos").childNodes[1];
+const infos = document.querySelector(".info").childNodes[1];
 const image = document.querySelector(".image").childNodes[1];
 
 document.querySelectorAll(".profile").forEach((e) => {
